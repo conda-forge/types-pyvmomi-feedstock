@@ -1,5 +1,5 @@
 {% set name = "types-pyvmomi" %}
-{% set version = "7.0.2" %}
+{% set version = "7.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-pyvmomi-{{ version }}.tar.gz
-  sha256: c0727bbd0d41146a7665313d2b9d5e7bb289f071c38ab265c6c5df2face6b047
+  sha256: af58fec83360799366f883d63f8a28ee3dee394f7a307a0a7db5849dade72673
 
 build:
   number: 0
